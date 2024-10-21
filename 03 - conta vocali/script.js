@@ -9,7 +9,8 @@ function howManyVowels(string) {
   let count = 0;
   let wichVowels = "(";
   for (let i = 0; i < string.length; i++) {
-    if (string.includes(vowels[i])) {
+    let char = string[i];
+    if () {
       count++;
       wichVowels += " " + vowels[i];
     }
